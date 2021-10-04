@@ -1,0 +1,109 @@
+@import 'global';
+
+
+
+
+body {
+    margin:0;
+    padding: 0;
+    width:100%;
+    background-color: $backgroundColor;
+}
+.container {
+    width:80%;
+    margin: 0 auto;
+    padding:10px;
+    height:800px;
+    background-color:white;
+    .header {
+        display:flex;
+        justify-content:space-around;
+        padding: 0 200px 0 50px;
+        align-items:center;
+        background-color:$secondaryColor;
+    }
+}
+.profileImage {
+    img {
+        object-fit:cover;
+        height:225px;
+        width:225px;
+        border-radius:200px;
+    }
+}
+.name {
+    .fullName {
+        font-size:60px;
+        margin: 0;
+    }
+    .job {
+        font-size: 30px;
+        margin:0;
+        font-style:italic;
+    }
+}
+.bottom {
+    height:100%;
+    display:flex;
+    .left {
+        width:40%;
+        height:570px;
+        background-color:#ebebeb;
+    }
+    .right {
+        width:60%;
+        height:570px;
+        background-color:#d2d2d2;
+    }
+}
+.contact {
+    @include fbox(column, center, center);
+}
+.education {
+    @include fbox(column, center, center);
+
+}
+.skills {
+    @include fbox(column, center, center);
+}
+.socialMedia {
+    @include fbox(column, center, center);
+}
+.experience {
+    @include fbox(column, center, center);
+    
+}
+
+
+.sectionHeader {
+    @include sectionHeader;
+}
+.contactHeader {
+    @include contactHeader;
+}
+.contactInfo {
+    @include sectionInfo;
+}
+.educationInfo {
+    @include sectionInfo;
+    text-align:center;
+    margin: 10px 0;
+}
+.language {
+    @include sectionInfo;
+    padding:5px;
+}
+.linkedIn {
+    @include sectionInfo;
+    padding:5px;
+}
+
+
+.exampleName {
+    @include contactHeader;
+    margin:5px;
+}
+.example1Info {
+    font-weight:normal;
+    margin:0px;
+}

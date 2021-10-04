@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #4C5760;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 800px;
+  background-color: white;
+}
+.container .header {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 200px 0 50px;
+  align-items: center;
+  background-color: #93A8AC;
+}
+
+.profileImage img {
+  object-fit: cover;
+  height: 225px;
+  width: 225px;
+  border-radius: 200px;
+}
+
+.name .fullName {
+  font-size: 60px;
+  margin: 0;
+}
+.name .job {
+  font-size: 30px;
+  margin: 0;
+  font-style: italic;
+}
+
+.bottom {
+  height: 100%;
+  display: flex;
+}
+.bottom .left {
+  width: 40%;
+  height: 570px;
+  background-color: #ebebeb;
+}
+.bottom .right {
+  width: 60%;
+  height: 570px;
+  background-color: #d2d2d2;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionHeader {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  margin: 0;
+  margin-left: 0;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.contactHeader {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.contactInfo {
+  color: #616161;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.educationInfo {
+  color: #616161;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.language {
+  color: #616161;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.linkedIn {
+  color: #616161;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.exampleName {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 0;
+  margin: 5px;
+}
+
+.example1Info {
+  font-weight: normal;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
